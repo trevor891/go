@@ -67,7 +67,13 @@ p{margin:0;max-width:66ch}
 .cta{display:flex;flex-direction:column;gap:12px;border-top:2px solid var(--fg);padding-top:22px}
 .contact{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .pill{font-family:var(--mono);font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:8px 14px;user-select:all}
-.btn{font:inherit;font-size:14px;font-weight:600;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:8px 14px;cursor:pointer}
+.actions{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.book{display:inline-block;font-weight:600;font-size:17px;text-decoration:none;background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:13px 22px}
+.book:hover{filter:brightness(1.08)}
+.book:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+.or{font-size:14px;color:var(--muted)}
+a.pill{color:var(--fg);text-decoration:none}
+.btn{font:inherit;font-size:14px;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:8px 14px;cursor:pointer}
 .btn:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
 .src{font-size:12px;color:var(--muted)}
 .src a{color:var(--muted)}
@@ -150,11 +156,15 @@ p{margin:0;max-width:66ch}
   </section>
 
   <section class="cta">
-    <h2>15 minutes this week?</h2>
-    <p>I'll show you all three fixes on your own site and share the fourth. Reply to my email or call me directly.</p>
-    <div class="contact">
-      <span class="pill" id="phone">(239) 341-6145</span>
-      <button class="btn" type="button" id="copyBtn">Copy number</button>
+    <h2>Let's talk this week</h2>
+    <p>I'll walk you through all three fixes on your own site and share the fourth. Pick a time that works for you, or call me directly.</p>
+    <div class="actions">
+      <a class="book" href="https://calendly.com/trevor-trevorrose/growth-conversation?utm_source=snapshot&amp;utm_campaign=sage-beach-carts" target="_blank" rel="noopener">Book a call on my calendar →</a>
+      <div class="contact">
+        <span class="or">or call</span>
+        <a class="pill" id="phone" href="tel:+12393416145">(239) 341-6145</a>
+        <button class="btn" type="button" id="copyBtn">Copy number</button>
+      </div>
     </div>
     <p class="by">Trevor Rose · Trevor Rose Consulting · Co-founder, Golf Carting Magazine</p>
     <p class="src">Sources: <a href="https://www.google.com/search?q=golf+cart+rental+port+aransas" target="_blank" rel="noopener">Google search</a> and Google Maps listing, Nov 2, 2026 · <a href="https://sagebeachcarts.com/club-car-sales/" target="_blank" rel="noopener">Sage Club Car Sales page</a> · <a href="https://cityofportaransas.org/?p=687" target="_blank" rel="noopener">City of Port Aransas golf cart rules</a> · Yelp, BBB, Birdeye, CitySquares and MerchantCircle listings, Oct 25, 2026</p>
